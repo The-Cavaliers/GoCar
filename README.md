@@ -1,17 +1,17 @@
 # GoCar
 
-The project description
+A carpool application used to connect users and enable then to create carpools by location and time
 
-## Team
+## Engineers
 
-- teamMember
-- teamMember
-- teamMember
-- teamMember
+- Aly Tamboura
+- Mahima Ganapati
+- Phong Lam
+- Michael Diodoro
 
 ## Roadmap
 
-View the project roadmap [here](LINK_TO_DOC)
+View the project roadmap [here](https://docs.google.com/document/d/17EnOWI0Gk5FzE2ZXIEW3OQ2amqBFXbl1kWRfpx0X3HM/edit)
 
 ## Contributing
 
@@ -34,7 +34,8 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidelines.
 - Node 6.9.x
 - Redis 3.2.x
 - Postgresql 9.6.x
-- etc
+- React
+- React-native
 
 ## Development
 
