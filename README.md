@@ -1,4 +1,4 @@
-# Project Name
+# GoCar
 
 The project description
 
@@ -62,7 +62,7 @@ IMPORTANT: ensure `postgres` is running before performing these steps.
 
 Use grunt to create a new database for your development and test environments:
 
-Development envronment: `grunt pgcreatedb:default`
+Development environment: `grunt pgcreatedb:default`
 
 Other environments, specify like so: `NODE_ENV=test grunt pgcreatedb:default`
 
