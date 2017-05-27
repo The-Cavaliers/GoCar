@@ -1,4 +1,17 @@
+/* eslint-disable */
 import React from 'react';
 import ReactDOM from 'react-dom';
+import View from './components/view.jsx';
 
-ReactDOM.render(<h1>Hello World from React</h1>, document.getElementById('root'));
+class App extends React.Component {
+  constructor() {
+    super();
+  }
+    render() {
+      return (
+        <View />
+      )
+  };
+}
+
+ReactDOM.render(<App/>, document.getElementById('root'));
