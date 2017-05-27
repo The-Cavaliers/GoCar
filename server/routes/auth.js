@@ -5,7 +5,7 @@ const router = express.Router();
 
 router.route('/')
   // .get(middleware.auth.verify, (req, res) => {  need to fix middleware.auth.verify
-    .get(middleware.auth.verify, (req, res) => {
+    .get( (req, res) => {
     res.render('index.ejs');
   });
 
