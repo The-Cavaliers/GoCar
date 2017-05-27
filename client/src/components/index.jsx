@@ -7,7 +7,7 @@ function mapStateToProps (state) {
     return {
         user: state.user,
         group: state.group
-    }
+    };
 }
 
 function mapDispatchToProps (dispatch) {

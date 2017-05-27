@@ -1,22 +1,6 @@
 /* eslint-disable */
 import React from 'react';
 import ReactDOM from 'react-dom';
-<<<<<<< HEAD
-import View from './components/view.jsx';
-
-class App extends React.Component {
-  constructor() {
-    super();
-  }
-    render() {
-      return (
-        <View />
-      )
-  };
-}
-
-ReactDOM.render(<App/>, document.getElementById('root'));
-=======
 import {Router, Route, IndexRoute, browserHistory} from 'react-router';
 import {Provider} from 'react-redux';
 import store, {history} from './store';
@@ -43,4 +27,4 @@ const router =(
 )
 
 ReactDOM.render(router, document.getElementById('root'));
->>>>>>> Redux Setup
+
