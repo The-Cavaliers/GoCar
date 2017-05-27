@@ -9,9 +9,9 @@ import App from './components/app';
 import createGroup from './components/createGroup';
 import joinGroup from './components/joinGroup';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
-// import injectTapEventPlugin from 'react-tap-event-plugin';
+import injectTapEventPlugin from 'react-tap-event-plugin';
 
-// injectTapEventPlugin();
+injectTapEventPlugin();
 
 const router =(
   <MuiThemeProvider>
