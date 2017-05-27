@@ -1,14 +1,13 @@
 
-export function action1(index) {
-  return {
-    type: 'INCREMENT_LIKES',
-    index
-  }
+export function createGroup(index) {
+    return {
+        type: 'Create_Group',
+        index
+    };
 }
-
-export function action2(index) {
-  return {
-    type: 'INCREMENT_LIKES',
-    index
-  }
+export function joinGroup(index) {
+    return {
+        type: 'Join_Group',
+        index
+    };
 }
